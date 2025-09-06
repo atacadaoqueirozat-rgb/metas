@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Array</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/new-year-background-3625405_1280.jpg"); 
+  font-family: "Montserrat";    
+  display: flex;
+  height: 100vh;  
+  justify-content: center;
+  align-items: center;  
+  background-size: cover;
+  background-position: center;  
+}
+.cla {  
+  background-color: white;
+  padding: 50px;
+  border-radius: 30px;  
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+h1 {
+  font-size: 24px;
+}
+button {
+  padding: 10px;
+  align-self: center;
+  width: 160px;
+  border-radius: 30px;  
+  background-image: linear-gradient(#256a8a, #3393c1);
+  border: solid 1px #256a8a;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f1f1f1;
+}
+a {
+  color: #009dff;
+}
+.barra-horizontal {
+  background-color: #f87842;
+  height: 5px;
+  width: 210px;
+}
+.campo-input {
+  /* flex container */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.lembrar-me {
+  /* flex container */
+  display: flex;
+  gap: 5px;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.esqueceu-senha {
+  text-align: center;
+}
+</style>
+  </head>
+  <body>
+    
+    
+      <nav  class="menu" >	
+        <div class="cla">
+          <div >
+            <label for="">Loja</label>
+            <input type="text" id="loja" class="form-control">
+        </div>
+        <div >
+            <label for="">Usuario</label>
+            <input type="text" id="usuario" class="form-control">
+        </div>
+
+        <div >
+            <label for="">Senha</label>
+            <input type="password" id="senha" class="form-control">
+        </div>
+
+        <div >
+            <button class="btn btn-success form-control" id="btnLogar" onclick="">Logar</button>
+        </div>
+        </div>
+      </nav>
+
+    
+
+
+
+    
+
+    <script src="valida.js"></script>
+    <script>let botao = document.getElementById('btnLogar')
+
+      botao.addEventListener('click', function logar(){
+      
+          let pegaLoja = document.getElementById('loja').value
+          let pegaUsuario = document.getElementById('usuario').value
+          let pegaSenha = document.getElementById('senha').value
+          let validalogin=false
+      
+          for(let i in usuarios){
+      
+              if(pegaLoja==usuarios[i].und && pegaUsuario == usuarios[i].login && pegaSenha==usuarios[i].pass){
+                 
+                  validalogin=true
+                  a=usuarios[i].linkd
+              }
+      
+          }
+      if(validalogin==true) {
+          alert('ok')
+          location.href=a
+          
+      }else{
+          alert('USUARIO E/OU SENHA')
+      }
+      })</script>
+  </body>
+</html>
