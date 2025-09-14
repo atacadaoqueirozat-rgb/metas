@@ -2,10 +2,6 @@ const usuarios = [
   /*RN-1*/
 {
 und:'56',
-login:'ADRIANO',
-pass: 'Adriano15',
-linkd: 'https://docs.google.com/spreadsheets/d/1Tc6yuEGuVZdrbQhh382ncFE_e6EwfmjMROflcjLWvOo/edit?usp=sharing'
-},
 {
 und:'11',
 login:'ALINE MENEZES',
@@ -275,6 +271,7 @@ pass: '2810',
 linkd: 'https://docs.google.com/spreadsheets/d/1xl2pq4fTbPxwNW-7h0k5WODF5kgMdZcDvviTJPvaARg/edit?usp=sharing'
 },
 ]
+
 
 
 
