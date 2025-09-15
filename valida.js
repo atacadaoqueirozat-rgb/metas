@@ -268,7 +268,15 @@ login:'VIVIAN SUERDA',
 pass: '2810',
 linkd: 'https://docs.google.com/spreadsheets/d/1xl2pq4fTbPxwNW-7h0k5WODF5kgMdZcDvviTJPvaARg/edit?usp=sharing'
 },
+  //supervisores
+{
+und:'41',
+login:'luis',
+pass: '2017',
+linkd:'https://atacadaoqueirozat-rgb.github.io/METAS-GERENCIAL/'
+},
 ]
+
 
 
 
