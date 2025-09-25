@@ -96,6 +96,12 @@ login:'Rita de cassia',
 pass: '12345',
 linkd: ''
 },
+  {
+und:'3',
+login:'ROSI',
+pass: '54321',
+linkd: 'https://docs.google.com/spreadsheets/d/1YJjsRo-RMgY1l8OmjkCLXebN3wSbNs1WhefsEX86Isg/edit?usp=sharing'
+},
 {
 und:'1',
 login:'TAWANN',
@@ -186,6 +192,7 @@ pass: '2017',
 linkd:'https://atacadaoqueirozat-rgb.github.io/METAS-GERENCIAL/'
 },
 ]
+
 
 
 
