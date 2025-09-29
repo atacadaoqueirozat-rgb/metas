@@ -189,9 +189,10 @@ linkd: 'https://docs.google.com/spreadsheets/d/1Bac-niZfirWXKKdAFV6mGtNcew_ChCkO
 und:'41',
 login:'luis',
 pass: '2017',
-linkd:'https://atacadaoqueirozat-rgb.github.io/METAS-GERENCIAL/'
+linkd:'https://atacadaoqueirozat-rgb.github.io/geral_vendedores/'
 },
 ]
+
 
 
 
