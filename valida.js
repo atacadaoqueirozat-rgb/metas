@@ -191,7 +191,14 @@ login:'luis',
 pass: '2017',
 linkd:'https://atacadaoqueirozat-rgb.github.io/geral_vendedores/'
 },
+{
+und:'41',
+login:'KAYSE',
+pass: '54321',
+linkd:'https://atacadaoqueirozat-rgb.github.io/METAS-GERENCIAL/'
+},
 ]
+
 
 
 
