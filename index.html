@@ -84,61 +84,62 @@ a {
   <body>
     
     
-      <nav  class="menu" >	
-        <div class="cla">
-          <div >
-            <label for="">Loja</label>
-            <input type="text" id="loja" class="form-control">
-        </div>
-        <div >
-            <label for="">Usuario</label>
-            <input type="text" id="usuario" class="form-control">
-        </div>
+    //  <nav  class="menu" >	
+     //   <div class="cla">
+      //    <div >
+      //      <label for="">Loja</label>
+      //      <input type="text" id="loja" class="form-control">
+      //  </div>
+      //  <div >
+       //     <label for="">Usuario</label>
+         //   <input type="text" id="usuario" class="form-control">
+       // </div>
 
-        <div >
-            <label for="">Senha</label>
-            <input type="password" id="senha" class="form-control">
-        </div>
+       // <div >
+          //  <label for="">Senha</label>
+          //  <input type="password" id="senha" class="form-control">
+       // </div>
 
-        <div >
-            <button class="btn btn-success form-control" id="btnLogar" onclick="">Logar</button>
-        </div>
-        </div>
-      </nav>
-
-    
-
-
+      //  <div >
+          //  <button class="btn btn-success form-control" id="btnLogar" onclick="">Logar</button>
+      //  </div>
+      //  </div>
+    //  </nav>
 
     
 
-    <script src="valida.js"></script>
-    <script>let botao = document.getElementById('btnLogar')
 
-      botao.addEventListener('click', function logar(){
+
+    
+
+   // <script src="valida.js"></script>
+  //  <script>let botao = document.getElementById('btnLogar')
+
+    //  botao.addEventListener('click', function logar(){
       
-          let pegaLoja = document.getElementById('loja').value
-          let pegaUsuario = document.getElementById('usuario').value
-          let pegaSenha = document.getElementById('senha').value
-          let validalogin=false
+       //   let pegaLoja = document.getElementById('loja').value
+       //   let pegaUsuario = document.getElementById('usuario').value
+        //  let pegaSenha = document.getElementById('senha').value
+        //  let validalogin=false
       
-          for(let i in usuarios){
+         // for(let i in usuarios){
       
-              if(pegaLoja==usuarios[i].und && pegaUsuario == usuarios[i].login && pegaSenha==usuarios[i].pass){
+           //   if(pegaLoja==usuarios[i].und && pegaUsuario == usuarios[i].login && pegaSenha==usuarios[i].pass){
                  
-                  validalogin=true
-                  a=usuarios[i].linkd
-              }
+                //  validalogin=true
+              //    a=usuarios[i].linkd
+          //    }
       
-          }
-      if(validalogin==true) {
-          alert('ok')
-          location.href=a
+      //    }
+    //  if(validalogin==true) {
+     //     alert('ok')
+     //     location.href=a
           
-      }else{
-          alert('USUARIO E/OU SENHA')
-      }
-      })</script>
+   //   }else{
+   //       alert('USUARIO E/OU SENHA')
+   //   }
+   //   })</script>
   </body>
 
 </html>
+
