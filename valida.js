@@ -1,7 +1,7 @@
-const usuarios = [
+//const usuarios = [
   /*RN-1*/
-  {
-und:'11',
+//  {
+//und:'11',
 login:'ALINE MENEZES',
 pass: 'Senha2025',
 linkd: 'https://docs.google.com/spreadsheets/d/1N5xprvxi-aQHdmu_caPSNuMqsiLrU0yxGbb8g9Jes8E/edit?usp=sharing'
@@ -49,7 +49,7 @@ pass: 'Josy123',
 linkd: 'https://docs.google.com/spreadsheets/d/11yuMKVNjhmEoFfwLGPP1I6XFNSC-3fn_HnJl112sTsI/edit?usp=sharing'
 },
 {
-und:'2',
+//und:'2',
 login:'LUCIVAN',
 pass: '123456',
 linkd: 'https://docs.google.com/spreadsheets/d/1LmtxLMoW-eZUZ-3D8-FCIwbjiNYLdjDtz-ELj_JEMiA/edit?usp=sharing'
@@ -325,6 +325,7 @@ pass: '852741',
 linkd:'https://atacadaoqueirozat-rgb.github.io/METAS-GERENCIAL/'
 },
 ]
+
 
 
 
